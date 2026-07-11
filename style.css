@@ -14,7 +14,7 @@ html {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    flex: 1 1 100%;
+    align-items: left;
 }
 
 .menu {
@@ -22,16 +22,21 @@ html {
     align-items: center;
     min-height: 60px;
     background-color: #1F2937;
-    padding-right: 10%;
-    padding-left: 10%;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%;
     
 }
 
-.nav_menu {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0.75em;
-    margin-left: 0em;
+.menu ul {
+    display: flex;
+    font-size: 20px;
+    color: #E5E7Eb;
+    justify-content: right;
+}
+
+.menu li {
+    margin: 1em 0 1em 1em;
 }
 
 li {
@@ -42,12 +47,12 @@ li {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    padding-left: 20%;
+    padding-right: 20%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .hero h2 {
@@ -76,8 +81,6 @@ button {
     width: 400px;
     height: 200px;
     background-color: lightgrey;
-    flex-basis: 0;
-    margin-left: auto;
 }
 
 .hero-text {
@@ -87,7 +90,6 @@ button {
     flex-basis: 0;
     min-width: 400px;
     min-height: 200px;
-    margin-right: auto;
 }
 
 .random h2 {
@@ -121,7 +123,6 @@ button {
 .random li {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 .random p {
     flex-wrap: wrap;
