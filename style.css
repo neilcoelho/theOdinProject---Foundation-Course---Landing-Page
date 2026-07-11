@@ -139,7 +139,7 @@ button {
 
 .quote {
     font-weight: 300;
-    padding-top: 36px;
+    padding-top: 3em;
     font-size: 2em;
     font-style: italic;
     text-align: left;
@@ -152,3 +152,72 @@ button {
     font-size: 1.4em;
 }
 
+.whitespace {
+    min-height: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    color:#F9FAF8;
+  /*  margin-right: 10%;
+    margin-left: 10%; */
+    margin-top: 5em;
+    margin-bottom: 5em;
+    min-height: 0rem;
+    min-width: 80%;
+    justify-content: space-between;
+    border-radius: 0.55em;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.call-to-action {
+    font-size: 36px;
+}
+
+.hint {
+    font-weight: 400;
+}
+
+.sign-up-btn {
+    display: flex;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.sign-up-btn button {
+    align-self: center;
+    border: #F9FAF8 solid 2px;
+    height: 3em;
+    font-weight: 900;
+    margin-right: 10%;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    min-height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:visited {
+    color: #F9FAF8;
+}
